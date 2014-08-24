@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+caption {
+text-align: -webkit-left;
+font-family: 'Novecento', Helvetica, sans-serif;
+margin: 10px 3px;
+}
+
+.calnav {
+	text-decoration:none;
+	padding: 4px 8px;
+	background: #CCC;
+	border-radius:3px;
+}
+
+.calendar-next {
+	margin-right: 25px;	
+}
+
+th {
+	font-family: 'Novecento', Helvetica, sans-serif !important;	
+	font-size:x-small;
+	width:4em;
+}
+
+td {
+margin:0;
+padding:0;
+line-height:30px;
+}
+
+td.booked {background:#CCC;}
+
+.first:before {
+	content:"";
+
+	background:none;
+    border-top: 30px solid transparent;
+    border-right: 42px solid #CCC;
+	display:block;
+	position:absolute;
+}
+.first {background:none !important; overflow:hidden; }
+
+.last:before {
+	content:"";
+
+	background:none;
+    border-top: 30px solid #CCC;
+    border-right: 42px solid transparent;
+	display:block;
+	position:absolute;
+}
+.last {background:none !important; overflow:hidden; }
+
+.first.last {background: #CCC !important;}
+
+a { position:relative;}
+
+table {border-spacing:0;}
